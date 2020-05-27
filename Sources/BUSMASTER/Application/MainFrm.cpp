@@ -195,6 +195,7 @@ enum
     DRIVER_CAN_VSCOM,
     DRIVER_CAN_IVIEW,
     DRIVER_CAN_ISOLAR,
+    DRIVER_CAN_CANTACT,
     DIL_TOTAL,          // Its value must be <= MAX_DILS
     DAL_NONE = ~0x0
 };
@@ -13511,6 +13512,10 @@ INT CMainFrame::nGetControllerID(std::string strDriverName)
     else if(strDriverName == "PEAK USB")
     {
         nDriverID = DRIVER_CAN_PEAK_USB;
+    }
+    else if (strDriverName == "CANtact")
+    {
+        nDriverID = DRIVER_CAN_CANTACT;
     }
     else
     {
