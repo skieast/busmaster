@@ -21,6 +21,7 @@
 // CAN_CANtact.cpp : Defines the initialization routines for the DLL.
 //
 
+#include "stdint.h"
 #include "CAN_CANtact_stdafx.h"
 #include "CAN_CANtact.h"
 #include "BaseDIL_CAN_Controller.h"
@@ -32,8 +33,9 @@
 #include "Utility\MultiLanguageSupport.h"
 //#include "../Application/GettextBusmaster.h"
 #include "DIL_Interface/HardwareListingCAN.h"
-#include "mhs_types.h"
+//#include "mhs_types.h"
 
+#include "cantact.h"
 
 #define USAGE_EXPORT
 #include "CAN_CANtact_Extern.h"
@@ -58,18 +60,6 @@ CCAN_CANtact::CCAN_CANtact()
 
 // The one and only CCAN_CANtact object
 CCAN_CANtact theApp;
-
-extern "C" {
-	__declspec(dllimport) int32_t cantact_init();
-	__declspec(dllimport) int32_t cantact_deinit();
-	__declspec(dllimport) int32_t cantact_open();
-	__declspec(dllimport) int32_t cantact_close();
-	__declspec(dllimport) int32_t cantact_start();
-	__declspec(dllimport) int32_t cantact_stop();
-	__declspec(dllimport) int32_t cantact_transmit();
-	__declspec(dllimport) int32_t cantact_set_bitrate();
-	__declspec(dllimport) int32_t cantact_set_bitrate_user();
-}
 
 /**
  * CCAN_CANtact initialization
@@ -177,6 +167,7 @@ static CRITICAL_SECTION sg_DIL_CriticalSection;
 
 static HWND sg_hOwnerWnd = nullptr;
 TCANtactCanCfg *sg_CANtactCanCfg = new TCANtactCanCfg("",0,0,true);
+static cantacthnd sg_CANtactHnd;
 
 static SYSTEMTIME sg_CurrSysTime;
 static UINT64 sg_TimeStamp = 0;
@@ -217,11 +208,11 @@ public:
 CDIL_CAN_CANtact* g_pouDIL_CAN_CANtact = nullptr;
 
 
-#define CALLBACK_TYPE __stdcall
+#define CALLBACK_TYPE __cdecl
 
 static void CALLBACK_TYPE CanPnPEvent(uint32_t index, int32_t status);
 static void CALLBACK_TYPE CanStatusEvent(uint32_t index, struct TDeviceStatus* status);
-static void CALLBACK_TYPE CanRxEvent(uint32_t index, struct TCanMsg* msg, int32_t count);
+static void CALLBACK_TYPE CanRxEvent(struct CantactFrame *f);
 
 static BOOL bIsBufferExists(const SCLIENTBUFMAP& sClientObj, const CBaseCANBufFSE* pBuf);
 static BOOL bRemoveClientBuffer(CBaseCANBufFSE* RootBufferArray[MAX_BUFF_ALLOWED], UINT& unCount, CBaseCANBufFSE* BufferToRemove);
@@ -505,8 +496,8 @@ HRESULT CDIL_CAN_CANtact::CAN_PerformInitOperations(void)
 	dwClientID = 0;
 	if (CAN_RegisterClient(TRUE, dwClientID, CAN_MONITOR_NODE) == S_OK)
 	{
-		int32_t err = cantact_init();
-		if (err == 0) {
+		sg_CANtactHnd = cantact_init();
+		if (sg_CANtactHnd != 0) {
 			// success
 			hResult = S_OK;
 		}
@@ -557,11 +548,10 @@ HRESULT CDIL_CAN_CANtact::CAN_PerformClosureOperations(void)
 {
     HRESULT hResult = S_OK;
 
-    hResult = CAN_StopHardware();
     // ------------------------------------
     // Close driver
     // ------------------------------------
-	cantact_deinit();
+	cantact_deinit(sg_CANtactHnd);
 
 #if 0
     CanDownDriver();
@@ -614,21 +604,22 @@ HRESULT CDIL_CAN_CANtact::CAN_ListHwInterfaces(INTERFACE_HW_LIST& asSelHwInterfa
     char str[2];
     str[0] = '\0';
  	AFX_MANAGE_STATE(AfxGetStaticModuleState());
-    if (cantact_open() == 0)
+	if (cantact_open(sg_CANtactHnd) == 0)
     {
-        (void)cantact_close();
+		sg_nNoOfChannels = cantact_get_channel_count(sg_CANtactHnd);
+		(void)cantact_close(sg_CANtactHnd);
 
-		int pnSelList[1]={0};
-        nCount = 1;
-        //set the current number of channels
-        sg_nNoOfChannels = 1;
-        asSelHwInterface[0].m_dwIdInterface = 0;
-        asSelHwInterface[0].m_acDescription = "CANtact";
-		INTERFACE_HW Dummy_Interface = asSelHwInterface[0];
+		int pnSelList[16] = {0};
+		nCount = sg_nNoOfChannels;
+		for (int i = 0; i < sg_nNoOfChannels; i++) {
+			asSelHwInterface[i].m_dwIdInterface = i;
+			asSelHwInterface[i].m_acDescription = "CANtact";
+		}
+
         sg_bCurrState = STATE_HW_INTERFACE_LISTED;
 		objMainWnd.Attach(sg_hOwnerWnd);
 		IChangeRegisters* pAdvancedSettings = new TCANtactCanCfg ("",0,0,true);
-		CHardwareListingCAN HwList(&Dummy_Interface, 1, pnSelList, CAN, CHANNEL_ALLOWED,  &objMainWnd, InitData, pAdvancedSettings);
+		CHardwareListingCAN HwList(&asSelHwInterface[0], sg_nNoOfChannels, pnSelList, CAN, CHANNEL_ALLOWED, &objMainWnd, InitData, pAdvancedSettings);
 		nRet=HwList.DoModal();
 		objMainWnd.Detach();
 		if(nRet==IDOK)
@@ -706,38 +697,40 @@ HRESULT CDIL_CAN_CANtact::CAN_SetConfigData(PSCONTROLLER_DETAILS ConfigFile, int
     SCONTROLLER_DETAILS* cntrl;
     char* str;
 
-	if(sg_CANtactCanCfg != nullptr)
-	{
-    //VALIDATE_VALUE_RETURN_VAL(sg_bCurrState, STATE_HW_INTERFACE_SELECTED, ERR_IMPROPER_STATE);
-    cntrl = (SCONTROLLER_DETAILS*)ConfigFile;
-    if (cntrl[0].m_omStrBaudrate.length() > 0)
-    {
-			sg_CANtactCanCfg->m_CanSpeed = _tcstol(cntrl[0].m_omStrBaudrate.c_str(), &str, 0);
-			sg_CANtactCanCfg->m_CanBtrValue = 0;
-    }
-    else
-    {
-			sg_CANtactCanCfg->m_CanSpeed = 0;
-			sg_CANtactCanCfg->m_CanBtrValue = _tcstol(cntrl[0].m_omStrBTR0.c_str(), &str, 0);
-    }
-		strcpy_s(sg_CANtactCanCfg->m_CanSnrStr, sizeof(sg_CANtactCanCfg->m_CanSnrStr), cntrl[0].m_omHardwareDesc.c_str());
+	if (Length > sg_nNoOfChannels) {
+		return (S_FALSE);
+	}
 
-    // **** Übertragungsgeschwindigkeit einstellen
-		if (sg_CANtactCanCfg->m_CanSpeed)
-    {
-			if (cantact_set_bitrate() < 0)
-        {
-            return(S_FALSE);
-        }
-    }
-    else
-    {
-		if (cantact_set_bitrate_user() < 0)
-        {
-            return(S_FALSE);
+	if (sg_CANtactCanCfg != nullptr)
+	{
+		cantact_open(sg_CANtactHnd);
+		cntrl = (SCONTROLLER_DETAILS*)ConfigFile;
+
+		for (int i = 0; i < Length; i++) {
+			uint32_t bitrate;
+
+			cantact_set_enabled(sg_CANtactHnd, i, true);
+			
+			if (cntrl[i].m_omStrBaudrate.length() > 0)
+			{
+				bitrate = _tcstol(cntrl[i].m_omStrBaudrate.c_str(), &str, 0);
 			}
-        }
-    }
+			else
+			{
+				bitrate = 500000;
+			}
+			if (cantact_set_bitrate(sg_CANtactHnd, i, bitrate) < 0)
+			{
+				cantact_close(sg_CANtactHnd);
+				return(S_FALSE);
+			}
+			strcpy_s(sg_CANtactCanCfg->m_CanSnrStr, sizeof(sg_CANtactCanCfg->m_CanSnrStr), cntrl[0].m_omHardwareDesc.c_str());
+		}
+	} else {
+		return (S_FALSE);
+	}
+   
+	cantact_close(sg_CANtactHnd);
     return(S_OK);
 }
 
@@ -759,6 +752,7 @@ static void vWriteIntoClientsBuffer(STCANDATA& can_data)
         ClientId = 0;
         sAckMap.m_Channel = can_data.m_uDataInfo.m_sCANMsg.m_ucChannel;
         sAckMap.m_MsgID = can_data.m_uDataInfo.m_sCANMsg.m_unMsgID;
+		//sAckMap.m_ClientID = ClientId;
         if (bRemoveMapEntry(sAckMap, ClientId))
         {
             bClientExists = bGetClientObj(ClientId, Index);
@@ -818,53 +812,46 @@ static void CALLBACK_TYPE CanStatusEvent(uint32_t /* index */, struct TDeviceSta
 
 
 // RxD Event-Funktion
-static void CALLBACK_TYPE CanRxEvent(uint32_t index, struct TCanMsg* msg, int32_t count)
+static void CALLBACK_TYPE CanRxEvent(struct CantactFrame *f)
 {
-    (void)index;
-    static STCANDATA can_data;
-    can_data.m_uDataInfo.m_sCANMsg.m_bCANFD = false;
-
-    for (; count; count--)
+    STCANDATA can_data;
+	EnterCriticalSection(&sg_DIL_CriticalSection);
+    GetLocalTime(&sg_CurrSysTime);
+    //Query Tick Count
+    QueryPerformanceCounter(&sg_QueryTickCount);
+    // Get frequency of the performance counter
+    QueryPerformanceFrequency(&sg_lnFrequency);
+    // Convert it to time stamp with the granularity of hundreds of microsecond
+    if ((sg_QueryTickCount.QuadPart * 10000) > sg_lnFrequency.QuadPart)
     {
-        EnterCriticalSection(&sg_DIL_CriticalSection);
-
-        can_data.m_uDataInfo.m_sCANMsg.m_ucChannel = 1;
-        can_data.m_uDataInfo.m_sCANMsg.m_unMsgID = msg->Id;
-        can_data.m_uDataInfo.m_sCANMsg.m_ucDataLen = msg->MsgLen;
-        can_data.m_uDataInfo.m_sCANMsg.m_ucEXTENDED = msg->MsgEFF;
-        can_data.m_uDataInfo.m_sCANMsg.m_ucRTR = msg->MsgRTR;
-        if (msg->MsgTxD)
-        {
-            can_data.m_ucDataType = TX_FLAG;
-        }
-        else
-        {
-            can_data.m_ucDataType = RX_FLAG;
-        }
-
-        GetLocalTime(&sg_CurrSysTime);
-        //Query Tick Count
-        QueryPerformanceCounter(&sg_QueryTickCount);
-        // Get frequency of the performance counter
-        QueryPerformanceFrequency(&sg_lnFrequency);
-        // Convert it to time stamp with the granularity of hundreds of microsecond
-        if ((sg_QueryTickCount.QuadPart * 10000) > sg_lnFrequency.QuadPart)
-        {
-            sg_TimeStamp = (sg_QueryTickCount.QuadPart * 10000) / sg_lnFrequency.QuadPart;
-        }
-        else
-        {
-            sg_TimeStamp = (sg_QueryTickCount.QuadPart / sg_lnFrequency.QuadPart) * 10000;
-        }
-        can_data.m_lTickCount.QuadPart = sg_TimeStamp;
-
-        memcpy(can_data.m_uDataInfo.m_sCANMsg.m_ucData, msg->MsgData, 8);
-
-        //Write the msg into registered client's buffer
-        vWriteIntoClientsBuffer(can_data);
-        LeaveCriticalSection(&sg_DIL_CriticalSection);
-        msg++;
+        sg_TimeStamp = (sg_QueryTickCount.QuadPart * 10000) / sg_lnFrequency.QuadPart;
     }
+    else
+    {
+        sg_TimeStamp = (sg_QueryTickCount.QuadPart / sg_lnFrequency.QuadPart) * 10000;
+    }
+    can_data.m_lTickCount.QuadPart = sg_TimeStamp;
+
+	can_data.m_uDataInfo.m_sCANMsg.m_bCANFD = f->fd;
+	// CANtact uses zero indexing for channels
+	can_data.m_uDataInfo.m_sCANMsg.m_ucChannel = f->channel + 1;
+	can_data.m_uDataInfo.m_sCANMsg.m_unMsgID = f->id;
+	can_data.m_uDataInfo.m_sCANMsg.m_ucDataLen = f->dlc;
+	can_data.m_uDataInfo.m_sCANMsg.m_ucEXTENDED = f->ext;
+	can_data.m_uDataInfo.m_sCANMsg.m_ucRTR = f->rtr;
+	if (f->loopback)
+	{
+		can_data.m_ucDataType = TX_FLAG;
+	}
+	else
+	{
+		can_data.m_ucDataType = RX_FLAG;
+	}
+    memcpy(can_data.m_uDataInfo.m_sCANMsg.m_ucData, f->data, 8);
+
+    //Write the msg into registered client's buffer
+    vWriteIntoClientsBuffer(can_data);
+    LeaveCriticalSection(&sg_DIL_CriticalSection);
 }
 
 /**
@@ -877,8 +864,9 @@ HRESULT CDIL_CAN_CANtact::CAN_StartHardware(void)
 	USES_CONVERSION;
 	HRESULT hResult;
 
-	if (cantact_open() == 0) {
-		if (cantact_start() == 0) {
+	if (cantact_open(sg_CANtactHnd) == 0) {
+		cantact_set_rx_callback(sg_CANtactHnd, &CanRxEvent);
+		if (cantact_start(sg_CANtactHnd) == 0) {
 			hResult = S_OK;
 			/* Get connection time */
 			GetLocalTime(&sg_CurrSysTime);
@@ -938,7 +926,8 @@ HRESULT CDIL_CAN_CANtact::CAN_StartHardware(void)
 HRESULT CDIL_CAN_CANtact::CAN_StopHardware(void)
 {
     VALIDATE_VALUE_RETURN_VAL(sg_bCurrState, STATE_CONNECTED, ERR_IMPROPER_STATE);
-    (void)cantact_close();
+	(void)cantact_stop(sg_CANtactHnd);
+	(void)cantact_close(sg_CANtactHnd);
     return(S_OK);
 }
 
@@ -984,27 +973,22 @@ HRESULT CDIL_CAN_CANtact::CAN_SendMsg(DWORD dwClientID, const STCAN_MSG& sMessag
     {
         if (sMessage.m_ucChannel <= sg_nNoOfChannels)
         {
-            // msg Variable Initialisieren
-            msg.MsgFlags = 0L;   // Alle Flags löschen, Stanadrt Frame Format,
-            // keine RTR, Datenlänge auf 0
-            if (sMessage.m_ucEXTENDED == 1)
+			struct CantactFrame f;
+			f.id = sMessage.m_unMsgID;
+			f.dlc = sMessage.m_ucDataLen;
+			// CANtact uses zero indexing for channels
+			f.channel = sMessage.m_ucChannel - 1;
+			f.ext = sMessage.m_ucEXTENDED;
+			f.fd = sMessage.m_bCANFD;
+			f.rtr = sMessage.m_ucRTR;
+			memcpy(f.data, sMessage.m_ucData, 8);
+			if (cantact_transmit(sg_CANtactHnd, f) >= 0)
             {
-                msg.MsgEFF = 1;    // Nachricht im EFF (Ext. Frame Format) versenden
-            }
-            if (sMessage.m_ucRTR == 1)
-            {
-                msg.MsgRTR = 1;    // Nachricht als RTR Frame versenden
-            }
-            msg.Id = sMessage.m_unMsgID;
-            msg.MsgLen = sMessage.m_ucDataLen;
-            memcpy(msg.MsgData, &sMessage.m_ucData, msg.MsgLen);
-            sAckMap.m_ClientID = dwClientID;
-            sAckMap.m_Channel  = sMessage.m_ucChannel;
-            sAckMap.m_MsgID    = msg.Id;
-            vMarkEntryIntoMap(sAckMap);
-            if (cantact_transmit() >= 0)
-            {
-                hResult = S_OK;
+				sAckMap.m_ClientID = dwClientID;
+				sAckMap.m_Channel = sMessage.m_ucChannel;
+				sAckMap.m_MsgID = f.id;
+				vMarkEntryIntoMap(sAckMap);
+				hResult = S_OK;
             }
             else
             {

@@ -159,8 +159,7 @@
       <AdditionalOptions>"$(SolutionDir)/BIN/Libs/$(OutDir)DataTypes.lib"
 "$(SolutionDir)/BIN/Libs/$(OutDir)Utils.lib"
  %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
+      <AdditionalDependencies>cantact.dll.lib</AdditionalDependencies>
       <OutputFile>$(SolutionDir)/bin/$(OutDir)CAN_CANtact.dll</OutputFile>
       <AdditionalLibraryDirectories>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ModuleDefinitionFile>
@@ -246,6 +245,7 @@
     <ClInclude Include="CAN_CANtact_Resource.h" />
     <ClInclude Include="CAN_CANtact_stdafx.h" />
     <ClInclude Include="ChannelSelectionResource.h" />
+    <ClInclude Include="EXTERNAL\cantact.h" />
     <ClInclude Include="mhstcan.h" />
     <ClInclude Include="..\Application\MultiLanguage.h" />
     <ClInclude Include="mhs_types.h" />
