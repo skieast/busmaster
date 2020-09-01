@@ -1,0 +1,174 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  TxMsgChildFrame.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(36,1): warning C4005: 'defNO_OF_CHANNELS': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\DeviceListInfo.h(40): message : see previous definition of 'defNO_OF_CHANNELS'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(42,1): warning C4005: 'defFLC_CREATE_FAILED': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(43): message : see previous definition of 'defFLC_CREATE_FAILED'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(43,1): warning C4005: 'defCOMBO_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(44): message : see previous definition of 'defCOMBO_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(44,1): warning C4005: 'defCOMBO_LIST': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(45): message : see previous definition of 'defCOMBO_LIST'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(45,1): warning C4005: 'defEDIT_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(46): message : see previous definition of 'defEDIT_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(46,1): warning C4005: 'defNUM_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(47): message : see previous definition of 'defNUM_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ITxFormView.h(41,2): warning C4091: 'typedef ': ignored on left of 'eTXWNDDETAILS' when no variable is declared
+  Tx_MDIChildBase.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\DeviceListInfo.h(40,1): warning C4005: 'defNO_OF_CHANNELS': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(36): message : see previous definition of 'defNO_OF_CHANNELS'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(42,1): warning C4005: 'defFLC_CREATE_FAILED': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(43): message : see previous definition of 'defFLC_CREATE_FAILED'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(43,1): warning C4005: 'defCOMBO_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(44): message : see previous definition of 'defCOMBO_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(44,1): warning C4005: 'defCOMBO_LIST': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(45): message : see previous definition of 'defCOMBO_LIST'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(45,1): warning C4005: 'defEDIT_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(46): message : see previous definition of 'defEDIT_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(46,1): warning C4005: 'defNUM_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(47): message : see previous definition of 'defNUM_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ITxFormView.h(41,2): warning C4091: 'typedef ': ignored on left of 'eTXWNDDETAILS' when no variable is declared
+  TXWindow_Extern.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(36,1): warning C4005: 'defNO_OF_CHANNELS': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\DeviceListInfo.h(40): message : see previous definition of 'defNO_OF_CHANNELS'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(42,1): warning C4005: 'defFLC_CREATE_FAILED': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(43): message : see previous definition of 'defFLC_CREATE_FAILED'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(43,1): warning C4005: 'defCOMBO_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(44): message : see previous definition of 'defCOMBO_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(44,1): warning C4005: 'defCOMBO_LIST': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(45): message : see previous definition of 'defCOMBO_LIST'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(45,1): warning C4005: 'defEDIT_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(46): message : see previous definition of 'defEDIT_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(46,1): warning C4005: 'defNUM_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(47): message : see previous definition of 'defNUM_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ITxFormView.h(41,2): warning C4091: 'typedef ': ignored on left of 'eTXWNDDETAILS' when no variable is declared
+  TxDataStore.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+  stdafx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  ScheduleTableCfgDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\DeviceListInfo.h(40,1): warning C4005: 'defNO_OF_CHANNELS': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(36): message : see previous definition of 'defNO_OF_CHANNELS'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ScheduleTableCfgDlg.cpp(116,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ScheduleTableCfgDlg.cpp(121,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ScheduleTableCfgDlg.cpp(126,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ScheduleTableCfgDlg.cpp(131,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  LINTxMsgItem.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+  LINTxFormView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(36,1): warning C4005: 'defNO_OF_CHANNELS': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\DeviceListInfo.h(40): message : see previous definition of 'defNO_OF_CHANNELS'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(42,1): warning C4005: 'defFLC_CREATE_FAILED': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(43): message : see previous definition of 'defFLC_CREATE_FAILED'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(43,1): warning C4005: 'defCOMBO_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(44): message : see previous definition of 'defCOMBO_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(44,1): warning C4005: 'defCOMBO_LIST': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(45): message : see previous definition of 'defCOMBO_LIST'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(45,1): warning C4005: 'defEDIT_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(46): message : see previous definition of 'defEDIT_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(46,1): warning C4005: 'defNUM_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(47): message : see previous definition of 'defNUM_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ITxFormView.h(41,2): warning C4091: 'typedef ': ignored on left of 'eTXWNDDETAILS' when no variable is declared
+  LINTransmitter.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+  LINScheduleDataStore.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(36,1): warning C4005: 'defNO_OF_CHANNELS': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\DeviceListInfo.h(40): message : see previous definition of 'defNO_OF_CHANNELS'
+  ITxFormView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ITxFormView.h(41,2): warning C4091: 'typedef ': ignored on left of 'eTXWNDDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(36,1): warning C4005: 'defNO_OF_CHANNELS': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\DeviceListInfo.h(40): message : see previous definition of 'defNO_OF_CHANNELS'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(43,1): warning C4005: 'defFLC_CREATE_FAILED': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(42): message : see previous definition of 'defFLC_CREATE_FAILED'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(44,1): warning C4005: 'defCOMBO_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(43): message : see previous definition of 'defCOMBO_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(45,1): warning C4005: 'defCOMBO_LIST': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(44): message : see previous definition of 'defCOMBO_LIST'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(46,1): warning C4005: 'defEDIT_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(45): message : see previous definition of 'defEDIT_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\hashdefines.h(47,1): warning C4005: 'defNUM_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(46): message : see previous definition of 'defNUM_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ITxFormView.cpp(654,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ITxFormView.cpp(1015,36): warning C4244: '=': conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ITxFormView.cpp(1019,36): warning C4244: '=': conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ITxFormView.cpp(1135,21): warning C4244: 'initializing': conversion from 'double' to 'UINT64', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ITxFormView.cpp(1484,68): warning C4390: ';': empty controlled statement found; is this the intent?
+  CCheckColumnTreeCtrl.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+  CANTxMsgItem.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+  CANTxFormView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(36,1): warning C4005: 'defNO_OF_CHANNELS': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\DeviceListInfo.h(40): message : see previous definition of 'defNO_OF_CHANNELS'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(42,1): warning C4005: 'defFLC_CREATE_FAILED': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(43): message : see previous definition of 'defFLC_CREATE_FAILED'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(43,1): warning C4005: 'defCOMBO_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(44): message : see previous definition of 'defCOMBO_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(44,1): warning C4005: 'defCOMBO_LIST': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(45): message : see previous definition of 'defCOMBO_LIST'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(45,1): warning C4005: 'defEDIT_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(46): message : see previous definition of 'defEDIT_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\Utility_Structs.h(46,1): warning C4005: 'defNUM_ITEM': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\HashDefines.h(47): message : see previous definition of 'defNUM_ITEM'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\ITxFormView.h(41,2): warning C4091: 'typedef ': ignored on left of 'eTXWNDDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\CANTxFormView.cpp(332,38): warning C4018: '<': signed/unsigned mismatch
+  CANTransmitter.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+  Generating Code...
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\CANTxMsgItem.cpp(364): warning C4715: 'CCANTxMsgItem::GetSignalList': not all control paths return a value
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\LINTxMsgItem.cpp(296): warning C4715: 'CLINTxMsgItem::GetSignalList': not all control paths return a value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TXWindow\Debug\TXWindow.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\BIN\Debug\TXWindow.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

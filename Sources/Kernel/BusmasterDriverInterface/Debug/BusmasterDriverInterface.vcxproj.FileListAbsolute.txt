@@ -1,0 +1,2 @@
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Debug\BusmasterDriverInterface.dll
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Debug\BusmasterDriverInterface.pdb

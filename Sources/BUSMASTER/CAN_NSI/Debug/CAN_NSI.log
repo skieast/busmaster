@@ -1,0 +1,139 @@
+﻿  Microsoft Windows [Version 10.0.20185.1000]
+  (c) 2020 Microsoft Corporation. All rights reserved.
+  
+  C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI>
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  MultiLanguage.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\stdAfx.h(81,1): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\stdAfx.h(81,1): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(174,15): warning C4996: 'GetVersion': was declared deprecated
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(144,9): warning C4189: 'nPrimaryLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(146,10): warning C4189: 'lcid': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(145,9): warning C4189: 'nSubLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(328,9): warning C4189: 'nPrimaryLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(331,9): warning C4189: 'nLocales': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(330,10): warning C4189: 'lcid': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(329,9): warning C4189: 'nSubLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(388,13): warning C4189: 'nSubLang': local variable is initialized but not referenced
+  ChangeRegisters.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(483,11): warning C4189: 'pcStopStr': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(1120,13): warning C4189: 'nColumnCount': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(1691,11): warning C4189: 'pcStopStr': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(1868,50): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(1868,50): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(1868,50): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(1914,13): warning C4189: 'dBaudRate': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(1984,24): warning C4458: declaration of 'm_usBTR0BTR1' hides class member
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.h(168,14): message : see declaration of 'CChangeRegisters::m_usBTR0BTR1'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(2177,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(2184,40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(2287,50): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(2287,50): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(2287,50): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(2294,87): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(2294,87): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\ChangeRegisters.cpp(2294,87): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+  CANRegAnalysis.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  CAN_NSI_stdafx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  CAN_NSI.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\EXTERNAL\NSI\candefex.h(411,30): warning C4121: '<unnamed-tag>': alignment of a member was sensitive to packing
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(464,34): warning C4459: declaration of 'cr' hides global declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(84,7): message : see declaration of 'cr'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(983,69): warning C4840: non-portable use of class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' as an argument to a variadic function
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(983,69): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' is non-trivial
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\include\xstring(2330,5): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(983,69): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\include\xstring(4622,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(1771,20): warning C4189: 'nUsedFlags': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(2539,78): warning C4840: non-portable use of class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' as an argument to a variadic function
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(2539,78): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' is non-trivial
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\include\xstring(2330,5): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(2539,78): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\include\xstring(4622,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(2555,78): warning C4840: non-portable use of class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' as an argument to a variadic function
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(2555,78): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' is non-trivial
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\include\xstring(2330,5): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(2555,78): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\include\xstring(4622,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\atlbase.h(5365,1): warning C4459: declaration of 'data' hides global declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\CAN_NSI.cpp(86,15): message : see declaration of 'data'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\atlbase.h(5358): message : while compiling class template member function 'HRESULT ATL::CAtlAutoThreadModuleT<ATL::CAtlAutoThreadModule,ATL::CComSimpleThreadAllocator,4294967295>::CreateInstance(void *,const IID &,void **)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\atlbase.h(5405): message : see reference to class template instantiation 'ATL::CAtlAutoThreadModuleT<ATL::CAtlAutoThreadModule,ATL::CComSimpleThreadAllocator,4294967295>' being compiled
+  AcceptanceFilterDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  HardwareListingCAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(727,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1104,24): warning C4245: 'initializing': conversion from 'int' to 'UINT', signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1149,72): warning C4100: 'pResult': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1149,55): warning C4100: 'pNMHDR': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1153,80): warning C4100: 'pResult': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1153,63): warning C4100: 'pNMHDR': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1231,12): warning C4189: 'dBaudRate': local variable is initialized but not referenced
+  Generating Code...
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1228): warning C4701: potentially uninitialized local variable 'unButtonState' used
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_NSI\Debug\CAN_NSI.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\bin\Debug\CAN_NSI.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  The system cannot find the file specified.
+  Could Not Find C:\Users\BRUCES~1\AppData\Local\Temp\canlib32.lib
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

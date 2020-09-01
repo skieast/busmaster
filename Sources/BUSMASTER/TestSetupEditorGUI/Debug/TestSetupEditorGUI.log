@@ -1,0 +1,65 @@
+﻿  ListCtrlEx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TreeViewEx.h(49): warning C4091: 'typedef ': ignored on left of 'CTreeViewEx::eTYPE_DROPPING' when no variable is declared
+  TestAutomationEditorDoc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\resource.h(7,1): warning C4005: 'RT_MANIFEST': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(282): message : see previous definition of 'RT_MANIFEST'
+  TreeViewEx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TreeViewEx.h(49): warning C4091: 'typedef ': ignored on left of 'CTreeViewEx::eTYPE_DROPPING' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TreeViewEx.cpp(49,42): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  TSEditorGUI_ChildFrame.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TreeViewEx.h(49): warning C4091: 'typedef ': ignored on left of 'CTreeViewEx::eTYPE_DROPPING' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\resource.h(7,1): warning C4005: 'RT_MANIFEST': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(282): message : see previous definition of 'RT_MANIFEST'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\CANChannelConfigDefines.h(33,1): warning C4005: 'defCLOCK': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(913): message : see previous definition of 'defCLOCK'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TSEditorGUI_ChildFrame.cpp(2272,10): warning C4189: 'bFileModified': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TSEditorGUI_ChildFrame.cpp(2500,33): warning C4456: declaration of 'omstrFileName' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TSEditorGUI_ChildFrame.cpp(2492,13): message : see declaration of 'omstrFileName'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TSEditorGUI_ChildFrame.cpp(3567,14): warning C4189: 'unSignalCount': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TSEditorGUI_ChildFrame.cpp(3790,54): warning C4100: 'pCmdUI': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TSEditorGUI_ChildFrame.cpp(3852,44): warning C4100: 'nCommandID': unreferenced formal parameter
+  TestAutomationEditor.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\resource.h(7,1): warning C4005: 'RT_MANIFEST': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(282): message : see previous definition of 'RT_MANIFEST'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TreeViewEx.h(49): warning C4091: 'typedef ': ignored on left of 'CTreeViewEx::eTYPE_DROPPING' when no variable is declared
+  TSEditorGUI_PropertyView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TreeViewEx.h(49): warning C4091: 'typedef ': ignored on left of 'CTreeViewEx::eTYPE_DROPPING' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSetupEditorGUI\TSEditorGUI_PropertyView.cpp(196,39): warning C4100: 'nType': unreferenced formal parameter
+  TSEditorGUI_SettingsDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+  stdafx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

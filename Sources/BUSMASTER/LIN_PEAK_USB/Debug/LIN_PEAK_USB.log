@@ -1,0 +1,43 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  LIN_PEAK_USB_stdafx.cpp
+  LIN_PEAK_USB_Network.cpp
+  LIN_PEAK_USB_Channel.cpp
+  LIN_PEAK_USB.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(495,48): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(543,81): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(555,62): warning C4244: '=': conversion from 'UINT' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(556,63): warning C4244: '=': conversion from 'UINT' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(557,85): warning C4244: '=': conversion from 'LONGLONG' to 'unsigned long', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(607,31): warning C4189: 'odChannel': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(878,42): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(892,25): warning C4244: '=': conversion from 'INT' to 'UCHAR', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(1598,114): warning C4244: 'argument': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(1598,67): warning C4244: 'argument': conversion from 'UINT' to 'BYTE', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(1635,115): warning C4244: 'argument': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(1714,51): warning C4244: '=': conversion from 'int' to 'BYTE', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\LIN_PEAK_USB.cpp(2058,19): warning C4189: 'odChannel': local variable is initialized but not referenced
+  HardwareListing.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListing.cpp(538,35): warning C4018: '<': signed/unsigned mismatch
+  CommanDIL_LIN.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(451,32): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(561,52): warning C4244: '=': conversion from 'unsigned int' to 'UCHAR', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(589,37): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(591,46): warning C4456: declaration of 'itrCommands' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(587,48): message : see declaration of 'itrCommands'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(593,41): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(810,33): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(823,77): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(845,73): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(863,33): warning C4244: '=': conversion from '_Ty1' to 'unsigned char', possible loss of data
+          with
+          [
+              _Ty1=const int
+          ]
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_PEAK_USB\Debug\LIN_PEAK_USB.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\bin\Debug\LIN_PEAK_USB.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

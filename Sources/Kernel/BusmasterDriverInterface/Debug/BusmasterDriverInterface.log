@@ -1,0 +1,22 @@
+﻿  stdafx.cpp
+  BusmasterDriverInterface.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+  DILC_Dummy.cpp
+  DILI_J1939.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+  DILL_Dummy.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  DIL_CAN.cpp
+  DIL_LIN.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\DIL_LIN.cpp(57,6): warning C4838: conversion from '<unnamed-enum-DRIVER_LIN_ISOLAR_EVE_VLIN>' to 'DWORD' requires a narrowing conversion
+  Generating Code...
+  dllmain.cpp
+     Creating library Debug\BusmasterDriverInterface.lib and object Debug\BusmasterDriverInterface.exp
+  BusmasterDriverInterface.vcxproj -> C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Debug\BusmasterDriverInterface.dll
+  A subdirectory or file C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\..\BUSMASTER\BIN\Debug\ already exists.
+          1 file(s) copied.

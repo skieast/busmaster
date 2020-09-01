@@ -1,0 +1,296 @@
+﻿  Performing Custom Build Tools
+  Performing Custom Build Tools
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  TSExecutorResult.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorGUI_stdafx.h(46,1): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorGUI_stdafx.h(46,1): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(278,28): warning C4456: declaration of 'pos' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(258,18): message : see declaration of 'pos'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(283,86): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(283,86): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(283,86): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(288,62): warning C4456: declaration of 'omStrTemp' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(277,21): message : see declaration of 'omStrTemp'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(295,36): warning C4456: declaration of 'pos' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(278,22): message : see declaration of 'pos'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(302,42): warning C4456: declaration of 'omStrTemp' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(277,21): message : see declaration of 'omStrTemp'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(306,88): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(306,88): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(306,88): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(306,56): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(306,56): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(306,56): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(305,119): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(305,119): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(305,119): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(305,92): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(305,92): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(305,92): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(389,22): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(389,22): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorResult.cpp(389,22): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+  TSExecutorLIB.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Utility\CANChannelConfigDefines.h(33,1): warning C4005: 'defCLOCK': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(913): message : see previous definition of 'defCLOCK'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorLIB.cpp(522,10): warning C4189: 'bValidID': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorLIB.cpp(558,10): warning C4189: 'bValidID': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorLIB.cpp(747,28): warning C4456: declaration of 'csIsEnabled' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorLIB.cpp(718,13): message : see declaration of 'csIsEnabled'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorLIB.cpp(750,33): warning C4456: declaration of 'pIsEnabled' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorLIB.cpp(721,16): message : see declaration of 'pIsEnabled'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorLIB.cpp(857,35): warning C4456: declaration of 'unConfigCount' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorLIB.cpp(815,27): message : see declaration of 'unConfigCount'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorLIB.cpp(1247,99): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorLIB.cpp(1247,99): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorLIB.cpp(1247,99): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+  TSExecutorGUI_ChildFrame.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TreeViewEx.h(53): warning C4091: 'typedef ': ignored on left of 'CTreeViewEx::eTYPE_DROPPING' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorGUI_ChildFrame.cpp(187,10): warning C4189: 'bReturn': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorGUI_ChildFrame.cpp(209,15): warning C4189: 'err': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutorGUI_ChildFrame.cpp(594,9): warning C4189: 'nRetValue': local variable is initialized but not referenced
+  TSExecutorGUI.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TreeViewEx.h(53): warning C4091: 'typedef ': ignored on left of 'CTreeViewEx::eTYPE_DROPPING' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+  TSExecutorBase.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+  TSExecutionCAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Busmaster\Application\Hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Busmaster\Application\Hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutionCAN.cpp(447,20): warning C4189: 'sMsgEntry': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutionCAN.cpp(508,12): warning C4239: nonstandard extension used: 'argument': conversion from 'CString' to 'CString &'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutionCAN.cpp(508,12): message : A non-const reference may only be bound to an lvalue
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutionCAN.cpp(502,9): warning C4189: 'nSignalCount': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutionCAN.cpp(645,17): warning C4244: 'initializing': conversion from 'int' to 'short', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutionCAN.cpp(690,21): warning C4244: 'initializing': conversion from 'double' to 'UINT64', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TSExecutionCAN.cpp(684,11): warning C4189: 'pbData': local variable is initialized but not referenced
+  TreeViewEx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TreeViewEx.h(53): warning C4091: 'typedef ': ignored on left of 'CTreeViewEx::eTYPE_DROPPING' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TreeViewEx.cpp(47,42): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TreeViewEx.cpp(133,19): warning C4189: 'hRoot': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TreeViewEx.cpp(232,15): warning C4189: 'hNext': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TreeViewEx.cpp(369,10): warning C4189: 'unNewID': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TreeViewEx.cpp(352,10): warning C4189: 'unFirstIndex': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TreeViewEx.cpp(694,23): warning C4189: 'hSelectedItem': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\TreeViewEx.cpp(932,15): warning C4189: 'hParentItem': local variable is initialized but not referenced
+  ResultView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  MultiLanguage.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(174,15): warning C4996: 'GetVersion': was declared deprecated
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(144,9): warning C4189: 'nPrimaryLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(146,10): warning C4189: 'lcid': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(145,9): warning C4189: 'nSubLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(328,9): warning C4189: 'nPrimaryLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(331,9): warning C4189: 'nLocales': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(330,10): warning C4189: 'lcid': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(329,9): warning C4189: 'nSubLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(388,13): warning C4189: 'nSubLang': local variable is initialized but not referenced
+  ExpressionExecutor.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  Generating Code...
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  parser.c
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\parser.c(373,11): warning C4131: '__yy_memcpy': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\parser.c(488,21): warning C4244: '=': conversion from 'int' to 'short', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\parser.c(529,11): warning C4013: 'yyerror' undefined; assuming extern returning int
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\parser.c(702,18): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\parser.c(969,16): warning C4013: 'yy_scan_string' undefined; assuming extern returning int
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\parser.c(971,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\parser.c(976,15): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  lexer.c
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(587,41): warning C4244: '=': conversion from 'int' to 'YY_CHAR', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(624,18): warning C4477: 'sscanf' : format string '%lf' requires an argument of type 'double *', but variadic argument 1 has type 'int *'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(577,2): warning C4244: 'initializing': conversion from 'int' to 'YY_CHAR', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(991,40): warning C4244: '=': conversion from 'int' to 'YY_CHAR', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(981,2): warning C4244: 'initializing': conversion from 'int' to 'YY_CHAR', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1010,15): warning C4131: 'yy_try_NUL_trans': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1026,39): warning C4244: '=': conversion from 'int' to 'YY_CHAR', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1040,5): warning C4131: 'yyunput': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1153,6): warning C4131: 'yyrestart': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1168,17): warning C4131: 'yy_switch_to_buffer': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1211,6): warning C4131: 'yy_create_buffer': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1242,17): warning C4131: 'yy_delete_buffer': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1268,17): warning C4131: 'yy_init_buffer': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1285,41): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1295,17): warning C4131: 'yy_flush_buffer': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1323,6): warning C4131: 'yy_scan_buffer': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1361,14): warning C4131: 'yy_scan_string': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1378,14): warning C4131: 'yy_scan_bytes': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1472,6): warning C4131: 'yy_fatal_error': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1520,11): warning C4131: 'yy_flex_alloc': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1530,6): warning C4131: 'yy_flex_realloc': uses old-style declarator
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\lexer.c(1548,6): warning C4131: 'yy_flex_free': uses old-style declarator
+  Generating Code...
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\parser.c(962): warning C4716: 'yyerror': must return a value
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\parser.c(779): warning C4701: potentially uninitialized local variable 'yyval' used
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\TestSuiteExecutorGUI\Debug\TestSuiteExecutorGUI.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\BIN\Debug\TestSuiteExecutorGUI.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

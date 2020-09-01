@@ -1,0 +1,3 @@
+C:/Users/Bruce Segal/OneDrive/Projects/busmaster/Sources/Kernel/BusmasterDriverInterface/DIL_J1939/out/build/x64-Debug (default)/CMakeFiles/DIL_J1939.dir
+C:/Users/Bruce Segal/OneDrive/Projects/busmaster/Sources/Kernel/BusmasterDriverInterface/DIL_J1939/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/Bruce Segal/OneDrive/Projects/busmaster/Sources/Kernel/BusmasterDriverInterface/DIL_J1939/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,61 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  SigGrphWnd.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+  GraphRightView.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+  GraphLeftView.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+  GraphExportDlg.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+  GraphChildFrame.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+  GraphBottomView.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+  Generating Code...
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  MultiLanguage.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\stdAfx.h(81,1): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\stdAfx.h(81,1): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(174,15): warning C4996: 'GetVersion': was declared deprecated
+  MessageList.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+  MDIChildBase.cpp
+  GraphSink.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+  GraphParameters.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+  GraphList.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+  GraphElement.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+  GraphConfiguration.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(199,2): warning C4091: 'typedef ': ignored on left of 'eELEMENT_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(206,2): warning C4091: 'typedef ': ignored on left of 'eDISPLAY_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\SigGrphWnd_Defines.h(243,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SigGrphWnd\Debug\SigGrphWnd.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\BIN\Debug\SigGrphWnd.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

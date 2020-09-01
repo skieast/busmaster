@@ -1,0 +1,36 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  RefTimeKeeper.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  MsgContainerBase.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\common.h(30,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-LOAD_CONFIG>' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\Struct.h(218,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CommonClass\MsgContainerBase.cpp(209,28): warning C4456: declaration of 'nTempMsgCode' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CommonClass\MsgContainerBase.cpp(205,13): message : see declaration of 'nTempMsgCode'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CommonClass\MsgContainerBase.cpp(205,13): warning C4189: 'nTempMsgCode': local variable is initialized but not referenced
+  GUI_FormatMsgLIN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CommonClass\GUI_FormatMsgLIN.cpp(210,27): warning C4244: '=': conversion from 'eLinBusEventType' to 'USHORT', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CommonClass\GUI_FormatMsgLIN.cpp(359,36): warning C4245: '=': conversion from 'int' to 'DWORD', signed/unsigned mismatch
+  GUI_FormatMsgJ1939.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+  GUI_FormatMsgCommon.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  GUI_FormatMsgCAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1506,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CommonClass\Debug\CommonClass.lib) does not match the Library's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\BIN\Libs\Debug\CommonClass.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+LINK : fatal error LNK1181: cannot open input file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

@@ -1,0 +1,37 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  CAN_VSCOM_stdafx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  CAN_VSCOM.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\CAN_VSCOM.cpp(315,13): warning C4456: declaration of 'i' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\CAN_VSCOM.cpp(259,10): message : see declaration of 'i'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\CAN_VSCOM.cpp(686,21): warning C4456: declaration of 'j' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\CAN_VSCOM.cpp(658,23): message : see declaration of 'j'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\CAN_VSCOM.cpp(1312,123): warning C4100: 'unChannelCount': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\CAN_VSCOM.cpp(1312,91): warning C4100: 'bIsHardwareListed': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\CAN_VSCOM.cpp(1312,75): warning C4100: 'dwDriverId': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\CAN_VSCOM.cpp(1320,8): warning C4101: 'tmp': unreferenced local variable
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\CAN_VSCOM.cpp(1326,40): warning C4100: 'speed': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\CAN_VSCOM.cpp(1356,86): warning C4100: 'nCount': unreferenced formal parameter
+  can_setup.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\can_setup.cpp(84,24): warning C4099: '_VSCanCfg': type name first seen using 'class' now seen using 'struct'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\CAN_VSCOM.h(33): message : see declaration of '_VSCanCfg'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\can_setup.cpp(415,57): warning C4099: '_VSCanCfg': type name first seen using 'class' now seen using 'struct'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\can_setup.cpp(84): message : see declaration of '_VSCanCfg'
+  HardwareListingCAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(727,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1104,24): warning C4245: 'initializing': conversion from 'int' to 'UINT', signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1149,72): warning C4100: 'pResult': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1149,55): warning C4100: 'pNMHDR': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1153,80): warning C4100: 'pResult': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1153,63): warning C4100: 'pNMHDR': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1231,12): warning C4189: 'dBaudRate': local variable is initialized but not referenced
+  Generating Code...
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListingCAN.cpp(1228): warning C4701: potentially uninitialized local variable 'unButtonState' used
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_VSCOM\Debug\CAN_VSCOM.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\bin\Debug\CAN_VSCOM.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

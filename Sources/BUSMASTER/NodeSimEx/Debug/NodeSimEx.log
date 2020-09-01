@@ -1,0 +1,952 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  UtlityDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\UtlityDlg.cpp(146,34): warning C4456: declaration of 'nIndex' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\UtlityDlg.cpp(134,13): message : see declaration of 'nIndex'
+  SimSysWnd.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  SimSysTreeView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(203,68): warning C4458: declaration of 'mpGlobalObj' hides class member
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.h(119,17): message : see declaration of 'CSimSysTreeView::mpGlobalObj'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(203,97): warning C4458: declaration of 'mpSimSysManager' hides class member
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.h(114,21): message : see declaration of 'CSimSysTreeView::mpSimSysManager'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(277,30): warning C4189: 'odNodeDlg': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(383,14): warning C4189: 'bCheck': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(613,16): warning C4189: 'omTree': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(755,143): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(755,143): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(755,143): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(755,37): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'CString'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(987,14): warning C4189: 'bSuccess': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(1207,9): warning C4189: 'Result': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(1220,21): warning C4189: 'pListDisabled': local variable is initialized but not referenced
+  SimSysNodeInfo.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(561,17): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1083,182): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1083,182): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1083,182): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1083,144): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1083,144): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1083,144): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1083,37): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'CString'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1083,37): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'CString'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1088,51): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1088,51): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1088,51): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1087,37): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'CString'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1093,51): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1093,51): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1093,51): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1092,37): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'CString'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1107,151): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1107,151): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1107,151): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysNodeInfo.cpp(1107,37): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'CString'
+  SimSysManager.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysManager.cpp(542,63): warning C4244: '=': conversion from 'int' to 'BYTE', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysManager.cpp(738,22): warning C4189: 'pSimSysTreeView': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysManager.cpp(740,22): warning C4189: 'pSimSysNodeInf': local variable is initialized but not referenced
+  Sim_MDIChildBase.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\Hashdefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+  SetResetTimer.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  SelectFunctions.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SelectFunctions.cpp(168,5): warning C4456: declaration of 'nCount' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SelectFunctions.cpp(155,9): message : see declaration of 'nCount'
+  OutWnd.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\Hashdefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\OutWnd.cpp(254,10): warning C4189: 'breturn': local variable is initialized but not referenced
+  NodeSimEx_stdafx.cpp
+  NodeSimEx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+  NodeSim.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\NodeSim.cpp(120,91): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\NodeSim.cpp(120,91): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\NodeSim.cpp(120,91): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+  NodeDetailsDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\NodeDetailsDlg.cpp(194,10): warning C4189: 'bDuplicateFound': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\NodeDetailsDlg.cpp(434,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\NodeDetailsDlg.cpp(441,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\NodeDetailsDlg.cpp(655,22): warning C4189: 'pSimSysTreeView': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\NodeDetailsDlg.cpp(657,22): warning C4189: 'pSimSysNodeInf': local variable is initialized but not referenced
+  MultiLanguage.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\stdAfx.h(81,1): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\stdAfx.h(81,1): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(174,15): warning C4996: 'GetVersion': was declared deprecated
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(144,9): warning C4189: 'nPrimaryLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(146,10): warning C4189: 'lcid': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(145,9): warning C4189: 'nSubLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(328,9): warning C4189: 'nPrimaryLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(331,9): warning C4189: 'nLocales': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(330,10): warning C4189: 'lcid': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(329,9): warning C4189: 'nSubLang': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(388,13): warning C4189: 'nSubLang': local variable is initialized but not referenced
+  MsgHandlerDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\MsgHandlerDlg.cpp(244,37): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\MsgHandlerDlg.cpp(244,37): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\MsgHandlerDlg.cpp(244,37): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\MsgHandlerDlg.cpp(243,37): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\MsgHandlerDlg.cpp(243,37): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\MsgHandlerDlg.cpp(243,37): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\MsgHandlerDlg.cpp(242,37): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\MsgHandlerDlg.cpp(242,37): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\MsgHandlerDlg.cpp(242,37): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\MsgHandlerDlg.cpp(635,18): warning C4189: 'unMsgIDForName': local variable is initialized but not referenced
+  KeyValue.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  IncludeHeaderDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  HandlerFunc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HandlerFunc.cpp(618,47): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HandlerFunc.cpp(618,47): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HandlerFunc.cpp(618,47): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+  GlobalObj.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  FunctionView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  Generating Code...
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysManager.cpp(486): warning C4702: unreachable code
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(266): warning C4701: potentially uninitialized local variable 'hNode' used
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\SimSysTreeView.cpp(266): warning C4703: potentially uninitialized local pointer variable 'hNode' used
+  Compiling...
+  FunctionEditorDoc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(181,25): warning C4456: declaration of 'omStr' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(153,13): message : see declaration of 'omStr'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(190,54): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(190,54): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(190,54): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(325,49): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(325,49): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(325,49): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(366,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(373,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(415,17): warning C4189: 'nReplaceINdex': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(574,38): warning C4456: declaration of 'nIndex' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(557,22): message : see declaration of 'nIndex'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(619,46): warning C4456: declaration of 'nIndex' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(557,22): message : see declaration of 'nIndex'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1047,26): warning C4456: declaration of 'nIndex' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1039,13): message : see declaration of 'nIndex'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1376,17): warning C4456: declaration of 'unCount' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1157,9): message : see declaration of 'unCount'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1431,11): warning C4189: 'dwErrorCode': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1936,30): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1936,30): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1936,30): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1947,126): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1947,126): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1947,126): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1947,100): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1947,100): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(1947,100): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(2059,61): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(2059,61): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(2059,61): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(2064,61): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(2064,61): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(2064,61): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(2069,61): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(2069,61): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(2069,61): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(2099,40): warning C4456: declaration of 'omStrFunctionDecTemp' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FunctionEditorDoc.cpp(2085,13): message : see declaration of 'omStrFunctionDecTemp'
+  FunctionEditorBase.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  FnsTreeView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(484,23): warning C4189: 'pGloArray': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(207,19): warning C4189: 'hPDU': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(205,19): warning C4189: 'hPOC': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(206,19): warning C4189: 'hStartCycle': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(814,22): warning C4189: 'bRetVal': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(815,23): warning C4189: 'hmn': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(1452,29): warning C4456: declaration of 'omStr' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(1402,17): message : see declaration of 'omStr'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(1832,35): warning C4457: declaration of 'hItem' hides function parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(1716,48): message : see declaration of 'hItem'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(1730,13): warning C4189: 'nLength': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(2744,30): warning C4456: declaration of 'nIndex' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(2709,9): message : see declaration of 'nIndex'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(2896,39): warning C4457: declaration of 'hItem' hides function parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(2816,47): message : see declaration of 'hItem'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(3085,40): warning C4456: declaration of 'pos' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\FnsTreeView.cpp(3068,26): message : see declaration of 'pos'
+  FileView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  ExploreMsgSg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExploreMsgSg.cpp(281,52): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExploreMsgSg.cpp(281,52): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExploreMsgSg.cpp(281,52): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExploreMsgSg.cpp(552,9): warning C4189: 'nIndex': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExploreMsgSg.cpp(782,19): warning C4189: 'pBaseDIL_CAN': local variable is initialized but not referenced
+  ExecuteManager.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\Hashdefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteManager.cpp(397,9): warning C4189: 'i': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteManager.cpp(937,49): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteManager.cpp(937,49): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteManager.cpp(937,49): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteManager.cpp(963,41): warning C4456: declaration of 'bFreeLibrary' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteManager.cpp(856,10): message : see declaration of 'bFreeLibrary'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteManager.cpp(1669,9): warning C4189: 'nNodeCount': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteManager.cpp(1758,9): warning C4189: 'nNodeCount': local variable is initialized but not referenced
+  ExecuteFunc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2514,26): warning C4456: declaration of 'nMsgID' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2494,13): message : see declaration of 'nMsgID'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2537,50): warning C4245: '=': conversion from 'int' to 'DWORD', signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2606,47): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2606,47): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2606,47): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2494,13): warning C4189: 'nMsgID': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2640,26): warning C4457: declaration of 'nMsgID' hides function parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2620,78): message : see declaration of 'nMsgID'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2797,33): warning C4456: declaration of 'unMsgIDFrom' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2781,13): message : see declaration of 'unMsgIDFrom'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2798,30): warning C4456: declaration of 'unMsgIDTo' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2782,13): message : see declaration of 'unMsgIDTo'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2866,47): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2866,47): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2866,47): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2781,13): warning C4189: 'unMsgIDFrom': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2782,13): warning C4189: 'unMsgIDTo': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2907,34): warning C4456: declaration of 'omStrTemp' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2889,13): message : see declaration of 'omStrTemp'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2946,72): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2946,72): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2946,72): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2890,13): warning C4189: 'unMsgIDFrom': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ExecuteFunc.cpp(2891,13): warning C4189: 'unMsgIDTo': local variable is initialized but not referenced
+  EventHandlerDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\Hashdefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\EventHandlerDlg.cpp(75,28): warning C4456: declaration of 'pButton' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\EventHandlerDlg.cpp(62,14): message : see declaration of 'pButton'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\EventHandlerDlg.cpp(84,28): warning C4456: declaration of 'pButton' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\EventHandlerDlg.cpp(62,14): message : see declaration of 'pButton'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\EventHandlerDlg.cpp(60,10): warning C4189: 'bAvailable': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\EventHandlerDlg.cpp(175,19): warning C4189: 'hNew': local variable is initialized but not referenced
+  ErrHandlerDlgLIN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  ErrHandlerDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  EditFrameWnd.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  DLLHandlerDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  DefineTimerHandler.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  ConvertCpp.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(32,17): warning C4189: 'nReplaceINdex': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(117,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(124,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(151,26): warning C4456: declaration of 'nIndex' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(143,13): message : see declaration of 'nIndex'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(203,10): warning C4189: 'bFreeLibrary': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(294,40): warning C4456: declaration of 'omBusFNPrototype' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(250,13): message : see declaration of 'omBusFNPrototype'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(304,133): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(304,133): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(304,133): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\ConvertCpp.cpp(304,39): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'CString'
+  BusEventHandlerDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\HashDefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+  BuildProgram.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\Hashdefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\BuildProgram.cpp(447,46): warning C4456: declaration of 'omStrDLLFile' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\BuildProgram.cpp(441,25): message : see declaration of 'omStrDLLFile'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\BuildProgram.cpp(448,46): warning C4456: declaration of 'acStrShortPath' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\BuildProgram.cpp(308,18): message : see declaration of 'acStrShortPath'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\BuildProgram.cpp(572,53): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\BuildProgram.cpp(572,53): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\BuildProgram.cpp(572,53): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\BuildProgram.cpp(589,46): warning C4458: declaration of 'm_omStrArray' hides class member
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\BuildProgram.h(70,18): message : see declaration of 'CBuildProgram::m_omStrArray'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\BuildProgram.cpp(332,23): warning C4189: 'pucGCCPath': local variable is initialized but not referenced
+  AppServicesLIN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\Hashdefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  AppServicesJ1939.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\Basedefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\Hashdefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  AppServicesCAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\Hashdefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  AppServices.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\Hashdefines.h(404,22): warning C4189: 'pduFormat': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\AppServices.cpp(169,34): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\AppServices.cpp(180,20): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+  Generating Code...
+  Compiling...
+  CNVTCToolBar.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  CNVTCImageList.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  Generating Code...
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  OffScreenDC.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\NodeSimEx\Debug\NodeSimEx.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\BIN\Debug\NodeSimEx.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

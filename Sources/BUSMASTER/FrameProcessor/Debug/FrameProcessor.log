@@ -1,0 +1,208 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  LogObjectLIN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectLIN.cpp(317,10): warning C4189: 'bResult': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(488,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(487): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>::pbGetConfigData(xmlNodePtr &) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectLIN.h(37): message : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>' being compiled
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(473,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(472): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>::pbGetConfigFilterData(xmlNodePtr) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectLIN.cpp(382): message : see reference to function template instantiation 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>::pbGetConfigFilterData(xmlNodePtr) const' being compiled
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(619,9): warning C4189: 'nRealFilters': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(618): message : while compiling class template member function 'int SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>::nGetFiltersFromName(SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN> &,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>> &)'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectLIN.cpp(367): message : see reference to function template instantiation 'int SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>::nGetFiltersFromName(SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN> &,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>> &)' being compiled
+  LogObjectJ1939.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectJ1939.cpp(66,16): warning C4838: conversion from '__int64' to 'TYPE_CHANNEL' requires a narrowing conversion
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectJ1939.cpp(66,16): warning C4244: 'initializing': conversion from '__int64' to 'TYPE_CHANNEL', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectJ1939.cpp(279,10): warning C4189: 'bResult': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(488,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(487): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_J1939>::pbGetConfigData(xmlNodePtr &) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectJ1939.h(38): message : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_J1939>' being compiled
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(473,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(472): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_J1939>::pbGetConfigFilterData(xmlNodePtr) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectJ1939.cpp(298): message : see reference to function template instantiation 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_J1939>::pbGetConfigFilterData(xmlNodePtr) const' being compiled
+  LogObjectCAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectCAN.cpp(293,10): warning C4189: 'bResult': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(488,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(487): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectCAN.h(37): message : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(473,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(472): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigFilterData(xmlNodePtr) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectCAN.cpp(358): message : see reference to function template instantiation 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigFilterData(xmlNodePtr) const' being compiled
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(619,9): warning C4189: 'nRealFilters': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(618): message : while compiling class template member function 'int SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::nGetFiltersFromName(SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN> &,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>> &)'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectCAN.cpp(343): message : see reference to function template instantiation 'int SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::nGetFiltersFromName(SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN> &,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>> &)' being compiled
+  FrameProcessor_LIN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(488,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(487): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>::pbGetConfigData(xmlNodePtr &) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectLIN.h(37): message : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>' being compiled
+  FrameProcessor_J1939.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\StdAfx.h(81,1): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\StdAfx.h(81,1): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(488,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(487): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_J1939>::pbGetConfigData(xmlNodePtr &) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectJ1939.h(38): message : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_J1939>' being compiled
+  FrameProcessor_Common.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\FrameProcessor_Common.cpp(579,10): warning C4189: 'isEnabled': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\FrameProcessor_Common.cpp(623,34): warning C4244: '=': conversion from 'int' to 'USHORT', possible loss of data
+  FrameProcessor_CAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(488,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(487): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\LogObjectCAN.h(37): message : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+  FrameProcessor.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogDlg.h(32,2): warning C4091: 'typedef ': ignored on left of 'ECONTROLTYPE' when no variable is declared
+  FormatMsgLIN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\Format\FormatMsgLIN.cpp(155,41): warning C4244: '=': conversion from 'eLinMsgType' to 'BYTE', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\Format\FormatMsgLIN.cpp(182,36): warning C4245: '=': conversion from 'int' to 'DWORD', signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\Format\FormatMsgLIN.cpp(195,41): warning C4244: '=': conversion from 'eLinMsgType' to 'BYTE', possible loss of data
+  FormatMsgJ1939.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+  FormatMsgCommon.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  FormatMsgCAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+  ConfigMsgLogLINDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogDlg.h(32,2): warning C4091: 'typedef ': ignored on left of 'ECONTROLTYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogLINDlg.cpp(47,30): warning C4456: declaration of 'sMainEntry' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogLINDlg.cpp(43,16): message : see declaration of 'sMainEntry'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(488,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(487): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>::pbGetConfigData(xmlNodePtr &) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogLINDlg.cpp(19): message : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>' being compiled
+  ConfigMsgLogJ1939Dlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogDlg.h(32,2): warning C4091: 'typedef ': ignored on left of 'ECONTROLTYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+  ConfigMsgLogDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogDlg.h(32,2): warning C4091: 'typedef ': ignored on left of 'ECONTROLTYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogDlg.cpp(851,62): warning C4840: non-portable use of class 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' as an argument to a variadic function
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogDlg.cpp(851,62): message : 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' is non-trivial
+          with
+          [
+              _CharType=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\cstringt.h(1026,2): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogDlg.cpp(851,62): message : the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afxstr.h(87,43): message : see declaration of 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogDlg.cpp(1034,21): warning C4244: 'argument': conversion from 'int' to 'USHORT', possible loss of data
+  ConfigMsgLogCANDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogDlg.h(32,2): warning C4091: 'typedef ': ignored on left of 'ECONTROLTYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogCANDlg.cpp(43,30): warning C4456: declaration of 'sMainEntry' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogCANDlg.cpp(39,16): message : see declaration of 'sMainEntry'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(488,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(487): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\ConfigMsgLogCANDlg.cpp(15): message : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+  BaseLogObject.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\ModuleID.h(50,2): warning C4091: 'typedef ': ignored on left of 'eID_COMPONENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\BaseLogObject.cpp(739,33): warning C4456: declaration of 'strChannelNum' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\BaseLogObject.cpp(732,13): message : see declaration of 'strChannelNum'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\BaseLogObject.cpp(762,33): warning C4456: declaration of 'strChannelNum' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\BaseLogObject.cpp(732,13): message : see declaration of 'strChannelNum'
+  Generating Code...
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\BaseLogObject.cpp(516): warning C4701: potentially uninitialized local variable 'n_pos' used
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\FrameProcessor\Debug\FrameProcessor.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\bin\Debug\FrameProcessor.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

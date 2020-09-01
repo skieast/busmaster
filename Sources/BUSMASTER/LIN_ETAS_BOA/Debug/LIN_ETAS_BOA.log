@@ -1,0 +1,51 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  LIN_ETAS_BOA_stdafx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  LIN_ETAS_BOA.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA_Defs.h(213,1): warning C4245: '=': conversion from 'int' to 'UINT', signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(709,38): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(768,35): warning C4245: 'initializing': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1157,107): warning C4244: '=': conversion from 'uint32' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1183,108): warning C4244: '=': conversion from 'uint32' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1184,107): warning C4244: '=': conversion from 'uint32' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1190,117): warning C4244: '=': conversion from 'uint32' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1197,116): warning C4244: '=': conversion from 'uint32' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1198,117): warning C4244: '=': conversion from 'uint32' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1199,117): warning C4244: '=': conversion from 'uint32' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1227,83): warning C4244: '=': conversion from 'uint32' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1228,86): warning C4244: '=': conversion from 'uint32' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1306,43): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1619,38): warning C4456: declaration of 'i' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1596,26): message : see declaration of 'i'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1630,56): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1619,34): warning C4189: 'i': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1782,20): warning C4189: 'ErrCode': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\LIN_ETAS_BOA.cpp(1778,13): warning C4189: 'hResult': local variable is initialized but not referenced
+  HardwareListing.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListing.cpp(538,35): warning C4018: '<': signed/unsigned mismatch
+  CommanDIL_LIN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(451,32): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(561,52): warning C4244: '=': conversion from 'unsigned int' to 'UCHAR', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(589,37): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(591,46): warning C4456: declaration of 'itrCommands' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(587,48): message : see declaration of 'itrCommands'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(593,41): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(810,33): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(823,77): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(845,73): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(863,33): warning C4244: '=': conversion from '_Ty1' to 'unsigned char', possible loss of data
+          with
+          [
+              _Ty1=const int
+          ]
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ETAS_BOA\Debug\LIN_ETAS_BOA.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\bin\Debug\LIN_ETAS_BOA.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

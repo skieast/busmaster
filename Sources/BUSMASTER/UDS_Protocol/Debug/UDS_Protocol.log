@@ -1,0 +1,240 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  UDSSettingsWnd.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(24,2): warning C4091: 'typedef ': ignored on left of 'UDS_INTERFACE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(30,2): warning C4091: 'typedef ': ignored on left of 'DIAGNOSTIC_STANDARD' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(38,2): warning C4091: 'typedef ': ignored on left of 'TYPE_OF_FRAME' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,34): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,43): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,58): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,9): error C2062: type 'int' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,141): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,127): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,193): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,49): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(196,30): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(259,31): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(273,34): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(281,45): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(297,37): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(313,38): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(584,51): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(585,53): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(643,65): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(644,63): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(677,51): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(678,53): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(714,51): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSSettingsWnd.cpp(715,53): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+  UDSMainWnd.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(24,2): warning C4091: 'typedef ': ignored on left of 'UDS_INTERFACE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(30,2): warning C4091: 'typedef ': ignored on left of 'DIAGNOSTIC_STANDARD' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(38,2): warning C4091: 'typedef ': ignored on left of 'TYPE_OF_FRAME' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,34): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,43): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,58): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,9): error C2062: type 'int' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,141): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,127): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,193): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,49): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(77,5): error C2065: 'OnBnClickedSendUD': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(78,5): error C2065: 'OnBnClickedTesterPresent': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(79,5): error C2065: 'OnEnChangeData': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(80,5): error C2065: 'OnEnChangeSA': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(81,5): error C2065: 'OnEnChangeTA': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(129,18): error C2039: 'SendFirstFrame': is not a member of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(53): message : see declaration of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(138,28): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(157,5): error C3861: 'SendSimpleDiagnosticMessage': identifier not found
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(159,40): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(160,5): error C2065: 'DatatoSend': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(160,42): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(161,5): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(161,27): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(165,5): error C2065: 'ConsecutiveFrame': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(183,19): error C2039: 'SendContinuosFrames': is not a member of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(53): message : see declaration of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(193,9): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(195,13): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(197,12): error C2065: 'DatatoSend': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(199,25): error C2065: 'DatatoSend': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(209,33): error C2065: 'ConsecutiveFrame': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(210,9): error C3861: 'SendSimpleDiagnosticMessage': identifier not found
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(212,9): error C2065: 'DatatoSend': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(212,22): error C2065: 'DatatoSend': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(212,46): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(213,9): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(213,31): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(214,9): error C2065: 'ConsecutiveFrame': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(215,13): error C2065: 'ConsecutiveFrame': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(217,13): error C2065: 'ConsecutiveFrame': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(230,76): error C3861: 'CalculateDiffTime': identifier not found
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(236,13): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(238,17): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(241,5): error C2065: 'm_omSendButton': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(256,19): error C2039: 'SendSimpleDiagnosticMessage': is not a member of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(53): message : see declaration of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(263,9): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(263,54): error C2065: 'TargetAddress': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(263,71): error C2065: 'SourceAddress': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(268,74): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(268,101): error C2660: 'CBaseDIL_CAN::DILC_SendMsg': function does not take 1 arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\BaseDIL_CAN.h(146,21): message : see declaration of 'CBaseDIL_CAN::DILC_SendMsg'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(270,5): error C3861: 'StartTimer': identifier not found
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(334,19): error C2039: 'PrepareFlowControl': is not a member of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(53): message : see declaration of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(339,5): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(340,12): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(343,12): error C2065: 'fInterface': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(344,5): error C2050: switch expression not integral
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(347,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(348,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(349,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(357,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(357,65): error C2065: 'TargetAddress': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(358,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(359,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(360,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(368,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(369,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(370,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(378,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(379,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(380,13): error C2065: 'psTxCanMsgUds': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(407,19): error C2039: 'PrepareDiagnosticMessage': is not a member of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(53): message : see declaration of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(422,5): error C2065: 'TotalLength': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(423,5): error C2065: 'm_omSendButton': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(428,60): error C2660: 'SetTimer': function does not take 3 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(7029,1): message : see declaration of 'SetTimer'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(430,13): error C2065: 'fInterface': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(431,5): error C2050: switch expression not integral
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(438,73): error C2065: 'fInterface': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(470,28): error C2065: 'TargetAddress': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(473,17): error C2065: 'm_omSendButton': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(474,73): error C2660: 'SetTimer': function does not take 3 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(7029,1): message : see declaration of 'SetTimer'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(476,73): error C2065: 'fInterface': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(509,73): error C2065: 'fInterface': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(542,73): error C2065: 'fInterface': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(584,19): error C2039: 'OnBnClickedSendUD': is not a member of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(53): message : see declaration of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(586,26): error C2660: 'KillTimer': function does not take 1 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(7074,1): message : see declaration of 'KillTimer'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(590,5): error C2065: 'm_abDatas': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(591,22): error C2065: 'm_omMsgDataEdit': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(592,5): error C2065: 'm_omDiagService': undeclared identifier
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.cpp(592,21): fatal error C1003: error count exceeds 100; stopping compilation
+  UDS_TimmingWnd.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  UDS_Protocol.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(24,2): warning C4091: 'typedef ': ignored on left of 'UDS_INTERFACE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(30,2): warning C4091: 'typedef ': ignored on left of 'DIAGNOSTIC_STANDARD' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(38,2): warning C4091: 'typedef ': ignored on left of 'TYPE_OF_FRAME' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,34): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,43): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,58): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,9): error C2062: type 'int' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,141): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,127): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,193): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,49): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDS_Protocol.cpp(255,71): warning C4244: '=': conversion from '__int64' to 'UINT', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDS_Protocol.cpp(256,69): warning C4244: '=': conversion from '__int64' to 'UINT', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDS_Protocol.cpp(280,62): warning C4804: '<=': unsafe use of type 'bool' in operation
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDS_Protocol.cpp(282,60): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDS_Protocol.cpp(290,32): error C2039: 'SendContinuosFrames': is not a member of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(53): message : see declaration of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDS_Protocol.cpp(316,28): error C2039: 'PrepareFlowControl': is not a member of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(53): message : see declaration of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDS_Protocol.cpp(350,28): error C2039: 'PrepareFlowControl': is not a member of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(53): message : see declaration of 'CUDSMainWnd'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDS_Protocol.cpp(366,40): warning C4244: 'argument': conversion from 'float' to '__int64', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDS_Protocol.cpp(392,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDS_Protocol.cpp(480,71): warning C4244: '=': conversion from '__int64' to 'UINT', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDS_Protocol.cpp(481,71): warning C4244: '=': conversion from '__int64' to 'UINT', possible loss of data
+  UDS_NegRespMng.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(24,2): warning C4091: 'typedef ': ignored on left of 'UDS_INTERFACE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(30,2): warning C4091: 'typedef ': ignored on left of 'DIAGNOSTIC_STANDARD' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(38,2): warning C4091: 'typedef ': ignored on left of 'TYPE_OF_FRAME' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,34): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,43): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,58): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,9): error C2062: type 'int' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,141): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,127): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,193): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,49): error C2238: unexpected token(s) preceding ';'
+  stdafx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  Generating Code...

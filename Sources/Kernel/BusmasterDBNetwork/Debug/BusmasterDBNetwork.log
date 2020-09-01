@@ -1,0 +1,10 @@
+﻿  AccessDBManager.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+  BusMasterNetWork.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDBNetwork\BusMasterNetWork.cpp(502,17): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDBNetwork\BusMasterNetWork.cpp(529,28): warning C4018: '>': signed/unsigned mismatch
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1506,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDBNetwork\Debug\BusmasterDBNetwork.lib) does not match the Library's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\Bin\Debug\BusmasterDBNetwork.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  BusmasterDBNetwork.vcxproj -> C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDBNetwork\Debug\BusmasterDBNetwork.lib

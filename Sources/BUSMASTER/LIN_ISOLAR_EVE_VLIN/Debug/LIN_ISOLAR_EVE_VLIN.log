@@ -1,0 +1,28 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  SocketUDP.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ISOLAR_EVE_VLIN\SocketUDP.cpp(121,47): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ISOLAR_EVE_VLIN\SocketUDP.cpp(126,46): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ISOLAR_EVE_VLIN\SocketUDP.cpp(160,46): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ISOLAR_EVE_VLIN\SocketUDP.cpp(165,46): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ISOLAR_EVE_VLIN\SocketUDP.cpp(199,52): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ISOLAR_EVE_VLIN\SocketUDP.cpp(204,52): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ISOLAR_EVE_VLIN\SocketUDP.cpp(293,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ISOLAR_EVE_VLIN\SocketUDP.cpp(362,30): warning C4018: '<': signed/unsigned mismatch
+  LIN_ISOLAR_EVE_VLIN_stdafx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  LIN_ISOLAR_EVE_VLIN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ISOLAR_EVE_VLIN\LIN_ISOLAR_EVE_VLIN_Defines.h(120,1): warning C4005: 'TRACE': macro redefinition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29115\atlmfc\include\afx.h(332): message : see previous definition of 'TRACE'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ISOLAR_EVE_VLIN\LIN_ISOLAR_EVE_VLIN.cpp(250,43): warning C4018: '>=': signed/unsigned mismatch
+  EVE_LIN_Controller.cpp
+  HardwareListing.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListing.cpp(538,35): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_ISOLAR_EVE_VLIN\Debug\LIN_ISOLAR_EVE_VLIN.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\bin\Debug\LIN_ISOLAR_EVE_VLIN.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+LINK : fatal error LNK1181: cannot open input file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

@@ -1,0 +1,16 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+cl : command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+  MultiLanguage.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\MultiLanguage.cpp(174,15): warning C4996: 'GetVersion': was declared deprecated
+  SignalDefiner.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  SignalDefinerDlg.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SignalDefiner\SignalDefinerDlg.cpp(12,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SignalDefiner\SignalDefinerDlg.cpp(298,64): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SignalDefiner\SignalDefinerDlg.cpp(319,72): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SignalDefiner\Debug\SignalDefiner.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\bin\Debug\SignalDefiner.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\/BIN/Libs/Debug\SignalDefiner.lib and object C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\/BIN/Libs/Debug\SignalDefiner.exp
+  SignalDefiner.vcxproj -> C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\SignalDefiner\Debug\SignalDefiner.dll

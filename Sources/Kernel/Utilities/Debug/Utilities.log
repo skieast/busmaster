@@ -1,0 +1,6 @@
+﻿  MsgBufVSE.cpp
+  MsgBufVVSE.cpp
+  Utility_Thread.cpp
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1506,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\Utilities\Debug\Utilities.lib) does not match the Library's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\Bin\Debug\Utilities.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  Utilities.vcxproj -> C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\Utilities\Debug\Utilities.lib

@@ -1,0 +1,145 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  PSDI_CAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Busmaster\Application\Hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Busmaster\Application\Hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\common.h(30,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-LOAD_CONFIG>' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\Struct.h(218,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(24,2): warning C4091: 'typedef ': ignored on left of 'UDS_INTERFACE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(30,2): warning C4091: 'typedef ': ignored on left of 'DIAGNOSTIC_STANDARD' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(38,2): warning C4091: 'typedef ': ignored on left of 'TYPE_OF_FRAME' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,34): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,43): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,58): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,9): error C2062: type 'int' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,141): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,127): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,193): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,49): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+  MsgContainer_LIN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\common.h(30,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-LOAD_CONFIG>' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\Struct.h(218,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_LIN.cpp(47,1): warning C4005: 'MAKE_CHANNEL_SPECIFIC_MESSAGE': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(719): message : see previous definition of 'MAKE_CHANNEL_SPECIFIC_MESSAGE'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_LIN.cpp(121,16): warning C4189: 'sMsg': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_LIN.cpp(523,9): warning C4189: 'nCount': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_LIN.cpp(640,46): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_LIN.cpp(669,25): warning C4245: 'initializing': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_LIN.cpp(729,46): warning C4244: '=': conversion from 'int' to 'BYTE', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_LIN.cpp(757,25): warning C4244: '=': conversion from 'eLinBusEventType' to 'USHORT', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_LIN.cpp(942,37): warning C4456: declaration of 'ouSignal' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_LIN.cpp(935,42): message : see declaration of 'ouSignal'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_LIN.cpp(1008,13): warning C4189: 'hResult': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(488,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(487): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>::pbGetConfigData(xmlNodePtr &) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_LIN.h(83): message : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>' being compiled
+  MsgContainer_J1939.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\common.h(30,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-LOAD_CONFIG>' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\Struct.h(218,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_J1939.cpp(44,1): warning C4005: 'MAKE_CHANNEL_SPECIFIC_MESSAGE': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(719): message : see previous definition of 'MAKE_CHANNEL_SPECIFIC_MESSAGE'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_J1939.cpp(45,1): warning C4005: 'MAKE_SOURCE_SPECIFIC_MESSAGE': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(720): message : see previous definition of 'MAKE_SOURCE_SPECIFIC_MESSAGE'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_J1939.cpp(46,1): warning C4005: 'MAKE_DEST_SPECIFIC_MESSAGE': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(721): message : see previous definition of 'MAKE_DEST_SPECIFIC_MESSAGE'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_J1939.cpp(47,1): warning C4005: 'MAKE_TYPE_SPECIFIC_MESSAGE': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(722): message : see previous definition of 'MAKE_TYPE_SPECIFIC_MESSAGE'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_J1939.cpp(517,13): warning C4189: 'nCount': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_J1939.cpp(958,33): warning C4456: declaration of 'ouSignal' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_J1939.cpp(952,38): message : see declaration of 'ouSignal'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_J1939.cpp(978,13): warning C4189: 'hResult': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(488,10): warning C4189: 'byVersion': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(487): message : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_J1939>::pbGetConfigData(xmlNodePtr &) const'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_J1939.h(77): message : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_J1939>' being compiled
+  MsgContainer_CAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Busmaster\Application\Hashdefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Busmaster\Application\Hashdefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_Datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\common.h(30,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-LOAD_CONFIG>' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\Struct.h(218,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(24,2): warning C4091: 'typedef ': ignored on left of 'UDS_INTERFACE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(30,2): warning C4091: 'typedef ': ignored on left of 'DIAGNOSTIC_STANDARD' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\UDS_DataTypes.h(38,2): warning C4091: 'typedef ': ignored on left of 'TYPE_OF_FRAME' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(111,34): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(117,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(123,43): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(129,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(136,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(141,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(147,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(152,58): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,9): error C2062: type 'int' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(162,141): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(172,127): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(183,193): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,10): error C2062: type 'void' unexpected
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\UDS_Protocol\UDSMainWnd.h(187,49): error C2238: unexpected token(s) preceding ';'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_CAN.cpp(46,1): warning C4005: 'MAKE_CHANNEL_SPECIFIC_MESSAGE': macro redefinition
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Busmaster\Application\Hashdefines.h(719): message : see previous definition of 'MAKE_CHANNEL_SPECIFIC_MESSAGE'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_CAN.cpp(785,46): warning C4244: '=': conversion from 'int' to 'BYTE', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_CAN.cpp(991,33): warning C4456: declaration of 'ouSignal' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_CAN.cpp(985,38): message : see declaration of 'ouSignal'
+  MessageAttrib.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\stdafx.h(81,1): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\stdafx.h(81,1): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(138,2): warning C4091: 'typedef ': ignored on left of 'eREPLAYMODE' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\HashDefines.h(982,2): warning C4091: 'typedef ': ignored on left of 'eCONFIGDETAILS' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Include\BaseDefs.h(51,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVEHANDLER' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DataTypes\Filter_DataTypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData': an out-of-line definition of a member of a class template cannot have default arguments
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\struct.h(218,2): warning C4091: 'typedef ': ignored on left of 'eUSERSELCTION' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\Flags.h(72,2): warning C4091: 'typedef ': ignored on left of 'eCANMONITORFLAG' when no variable is declared
+  Generating Code...
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\PSDI_CAN\MsgContainer_J1939.cpp(1001): warning C4715: 'CMsgContainerJ1939::GetMessageDetails': not all control paths return a value

@@ -1,0 +1,2 @@
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterKernel\Debug\BusmasterKernel.dll
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterKernel\Debug\BusmasterKernel.pdb

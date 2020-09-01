@@ -1,0 +1,20 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  ProjectConfiguration.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  projConfigManager.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\StdAfx.h(81,1): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\Application\StdAfx.h(81,1): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+  ProjConfig.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\ProjectConfiguration\ProjConfig.cpp(71,22): warning C4834: discarding return value of function with 'nodiscard' attribute
+  operations_file.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\ProjectConfiguration\operations_file.cpp(275,62): warning C4456: declaration of 'acBuffer' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\ProjectConfiguration\operations_file.cpp(243,22): message : see declaration of 'acBuffer'
+  Generating Code...
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\ProjectConfiguration\operations_file.cpp(378): warning C4706: assignment within conditional expression
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\ProjectConfiguration\operations_file.cpp(418): warning C4706: assignment within conditional expression
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\ProjectConfiguration\Debug\ProjectConfiguration.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\bin\Debug\ProjectConfiguration.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\/BIN/Libs/Debug\ProjectConfiguration.lib and object C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\/BIN/Libs/Debug\ProjectConfiguration.exp
+  ProjectConfiguration.vcxproj -> C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\ProjectConfiguration\Debug\ProjectConfiguration.dll

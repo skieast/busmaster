@@ -1,0 +1,55 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DIL_J1939::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DIL_J1939-Debug-a3b06fda4b8e98b4359e.json",
+					"name" : "DIL_J1939",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Bruce Segal/OneDrive/Projects/busmaster/Sources/Kernel/BusmasterDriverInterface/DIL_J1939/out/build/x64-Debug (default)",
+		"source" : "C:/Users/Bruce Segal/OneDrive/Projects/busmaster/Sources/Kernel/BusmasterDriverInterface/DIL_J1939"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

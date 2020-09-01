@@ -1,0 +1,10 @@
+﻿  CAN_ISOLAR_EVE_VCAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_ISOLAR_EVE_VCAN\CAN_ISOLAR_EVE_VCAN.cpp(200,62): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_ISOLAR_EVE_VCAN\CAN_ISOLAR_EVE_VCAN.cpp(740,134): warning C4100: 'InitData': unreferenced formal parameter
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_ISOLAR_EVE_VCAN\CAN_ISOLAR_EVE_VCAN.cpp(833,36): warning C4244: '=': conversion from 'ECONTR_STATUS' to 'unsigned short', possible loss of data
+  CAN_ISOLAR_EVE_VCAN_stdafx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1324,5): warning MSB8012: TargetPath(C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\CAN_ISOLAR_EVE_VCAN\Debug\CAN_ISOLAR_EVE_VCAN.dll) does not match the Linker's OutputFile property value (C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\bin\Debug\CAN_ISOLAR_EVE_VCAN.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

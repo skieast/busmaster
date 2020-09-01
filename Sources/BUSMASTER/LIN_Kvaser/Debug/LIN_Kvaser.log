@@ -1,0 +1,35 @@
+﻿  CommanDIL_LIN.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(451,32): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(561,52): warning C4244: '=': conversion from 'unsigned int' to 'UCHAR', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(589,37): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(591,46): warning C4456: declaration of 'itrCommands' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(587,48): message : see declaration of 'itrCommands'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(593,41): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(810,33): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(823,77): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(845,73): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\CommanDIL_LIN.cpp(863,33): warning C4244: '=': conversion from '_Ty1' to 'unsigned char', possible loss of data
+          with
+          [
+              _Ty1=const int
+          ]
+  HardwareListing.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\DIL_Interface\HardwareListing.cpp(538,35): warning C4018: '<': signed/unsigned mismatch
+  LIN_Kvaser.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_Kvaser\LIN_Kvaser.cpp(124,43): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_Kvaser\LIN_Kvaser.cpp(138,73): warning C4244: '=': conversion from 'LONGLONG' to 'unsigned long', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_Kvaser\LIN_Kvaser.cpp(209,17): warning C4189: 'a': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_Kvaser\LIN_Kvaser.cpp(258,11): warning C4189: 'dwResult': local variable is initialized but not referenced
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_Kvaser\LIN_Kvaser.cpp(473,42): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_Kvaser\LIN_Kvaser.cpp(475,9): warning C4456: declaration of 'i' hides previous local declaration
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_Kvaser\LIN_Kvaser.cpp(441,9): message : see declaration of 'i'
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_Kvaser\LIN_Kvaser.cpp(1232,36): warning C4244: '=': conversion from 'ECONTR_STATUS' to 'unsigned short', possible loss of data
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\LIN_Kvaser\LIN_Kvaser.cpp(1257,24): warning C4018: '<': signed/unsigned mismatch
+  LIN_Kvaser_stdafx.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\BUSMASTER\\BIN\Libs\Debug\Utils.lib'

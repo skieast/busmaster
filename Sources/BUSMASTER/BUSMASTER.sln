@@ -1,8 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30323.103
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataTypes", "DataTypes\DataTypes.vcxproj", "{5D1AB9D9-755F-4743-AE73-83B7D5FCCD65}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E565EAB-C97A-4D30-BD2F-4713D12FE316} = {6E565EAB-C97A-4D30-BD2F-4713D12FE316}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utils", "Utility\Utils.vcxproj", "{4A20171C-51DB-4E82-BCE0-5E3EEB070566}"
 EndProject
@@ -175,8 +178,8 @@ Global
 		{5D1AB9D9-755F-4743-AE73-83B7D5FCCD65}.Unicode Release MinSize|Win32.Build.0 = Release|Win32
 		{5D1AB9D9-755F-4743-AE73-83B7D5FCCD65}.Unicode Release|Win32.ActiveCfg = Release|Win32
 		{5D1AB9D9-755F-4743-AE73-83B7D5FCCD65}.Unicode Release|Win32.Build.0 = Release|Win32
-		{4A20171C-51DB-4E82-BCE0-5E3EEB070566}.Debug|Win32.ActiveCfg = Debug|Win32
-		{4A20171C-51DB-4E82-BCE0-5E3EEB070566}.Debug|Win32.Build.0 = Debug|Win32
+		{4A20171C-51DB-4E82-BCE0-5E3EEB070566}.Debug|Win32.ActiveCfg = Release|Win32
+		{4A20171C-51DB-4E82-BCE0-5E3EEB070566}.Debug|Win32.Build.0 = Release|Win32
 		{4A20171C-51DB-4E82-BCE0-5E3EEB070566}.Release|Win32.ActiveCfg = Release|Win32
 		{4A20171C-51DB-4E82-BCE0-5E3EEB070566}.Release|Win32.Build.0 = Release|Win32
 		{4A20171C-51DB-4E82-BCE0-5E3EEB070566}.Unicode Debug|Win32.ActiveCfg = Release|Win32
@@ -563,6 +566,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43E277A7-CD43-4C82-88A0-1EEFE3F314DF}
 	EndGlobalSection
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true

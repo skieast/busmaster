@@ -1,0 +1,11 @@
+﻿  BusMasterKernel.cpp
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\ProtocolsDefinitions.h(23,2): warning C4091: 'typedef ': ignored on left of 'eBUSEVENT' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\ProtocolDefinitions\CCompuMethod.h(27,2): warning C4091: 'typedef ': ignored on left of 'eCompuType' when no variable is declared
+C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\J1939DriverDefines.h(238,2): warning C4091: 'typedef ': ignored on left of 'EJ1939_MSG_TYPE' when no variable is declared
+  stdafx.cpp
+  Generating Code...
+  dllmain.cpp
+     Creating library Debug\BusmasterKernel.lib and object Debug\BusmasterKernel.exp
+  BusmasterKernel.vcxproj -> C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\BusmasterKernel\Debug\BusmasterKernel.dll
+  A subdirectory or file C:\Users\Bruce Segal\OneDrive\Projects\busmaster\Sources\Kernel\..\BUSMASTER\BIN\Debug\ already exists.
+          1 file(s) copied.
