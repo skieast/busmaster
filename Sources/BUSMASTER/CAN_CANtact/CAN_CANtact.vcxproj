@@ -15,7 +15,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EFB39D0A-C032-436C-81FB-7A02C7851D00}</ProjectGuid>
+    <ProjectGuid>{D81B738A-E906-4F82-8B4F-CEEB29990926}</ProjectGuid>
     <RootNamespace>CAN_CANtact</RootNamespace>
     <Keyword>MFCDLLProj</Keyword>
     <ProjectName>CAN_CANtact</ProjectName>
@@ -115,7 +115,7 @@
       <AdditionalOptions>"$(SolutionDir)/BIN/Libs/$(OutDir)DataTypes.lib"
 "$(SolutionDir)/BIN/Libs/$(OutDir)Utils.lib"
  %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>EXTERNAL\cantact.dll.lib</AdditionalDependencies>
+      <AdditionalDependencies>cantact.dll.lib</AdditionalDependencies>
       <OutputFile>$(SolutionDir)/bin/$(OutDir)CAN_CANtact.dll</OutputFile>
       <AdditionalLibraryDirectories>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ModuleDefinitionFile>
